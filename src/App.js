@@ -1,2 +1,13 @@
-// import logo from './logo.svg';
-// <img src={logo} className="App-logo" alt="logo" />
+import Header from "./layouts/Header";
+
+import "./assets/styles/Header.css";
+
+function App() {
+  return (
+    <div>
+      <Header />
+    </div>
+  );
+}
+
+export default App;
