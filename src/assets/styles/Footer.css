@@ -1,0 +1,21 @@
+:root {
+  --color1: #7149c6;
+  --color2: #fc2947;
+  --color3: #fe6244;
+  --color5: #ffdeb9;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.footer {
+  background-color: var(--color5);
+  font-size: 26px;
+  font-family: Roboto, sans-serif;
+  padding: 20px;
+  text-align: center;
+  user-select: none;
+}
