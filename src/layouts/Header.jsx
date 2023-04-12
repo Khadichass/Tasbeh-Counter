@@ -7,7 +7,9 @@ function Header() {
         <button>Reset</button>
       </div>
       <div className="theme">
-        <div className="themeContainer"></div>
+        <div className="themeContainer">
+          <div className="sun"></div>
+        </div>
       </div>
     </div>
   );
