@@ -8,7 +8,7 @@ function Header() {
       </div>
       <div className="theme">
         <div className="themeContainer">
-          <div className="sun"></div>
+          <div className="sun">{light}</div>
         </div>
       </div>
     </div>
