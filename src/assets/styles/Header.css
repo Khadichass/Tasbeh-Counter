@@ -2,7 +2,11 @@
   --color1: #7149c6;
   --color2: #fc2947;
   --color3: #fe6244;
-  --color5: #ffdeb9;
+  --color4: #ffdeb9;
+  --color5: #062743;
+  --color6: #113a5d;
+  --color7: #ff7a8a;
+  --color8: #f9f9f9;
 }
 
 * {
@@ -18,7 +22,7 @@
 }
 
 .header {
-  background-color: var(--color5);
+  background-color: var(--color4);
   display: flex;
   justify-content: space-between;
   padding: 20px;
@@ -36,21 +40,24 @@
   user-select: none;
 }
 .theme {
+  position: relative;
   width: 100px;
   height: 44px;
   background-color: var(--color2);
   border-radius: 50px;
   cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  user-select: none;
   overflow: hidden;
+  transition: ease-in 1s;
 }
 
 .sun {
-  position: relative;
   width: 36px;
   height: 36px;
   background-color: #ffc207;
   border-radius: 50%;
   margin: 4px;
   transition: all 0.6s;
+  user-select: none;
 }

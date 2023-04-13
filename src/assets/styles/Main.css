@@ -2,7 +2,11 @@
   --color1: #7149c6;
   --color2: #fc2947;
   --color3: #fe6244;
-  --color5: #ffdeb9;
+  --color4: #ffdeb9;
+  --color5: #062743;
+  --color6: #113a5d;
+  --color7: #ff7a8a;
+  --color8: #f9f9f9;
 }
 
 * {
@@ -66,7 +70,7 @@
   font-size: 50px;
   background-color: var(--color2);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  color: var(--color5);
+  color: var(--color4);
   user-select: none;
   font-family: Roboto, sans-serif;
 }
