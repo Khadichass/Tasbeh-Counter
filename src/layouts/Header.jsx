@@ -25,13 +25,7 @@ function Header() {
       </div>
       <div className="theme">
         <div className="themeContainer">
-          <div className="sun">
-            {/* {day ? (
-              <FaMoon onClick={toogleClick} />
-            ) : (
-              <FaMoon onclick={toogleClick} />
-            )} */}
-          </div>
+          <div className="sun"></div>
         </div>
       </div>
     </div>
