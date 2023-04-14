@@ -28,6 +28,14 @@
   height: 100vh;
 }
 
+.mainNew {
+  background-image: url(../images/img2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
 .container {
   padding: 1%;
 }
@@ -62,15 +70,74 @@
   justify-content: center;
   width: 170px;
   height: 170px;
-  border: 8px solid var(--color3);
+  border: 13px solid var(--color3);
   margin-top: 6%;
   margin-left: 43%;
   border-radius: 50%;
-  padding: 3.5%;
-  font-size: 50px;
+  padding: 2.3%;
+  font-size: 70px;
   background-color: var(--color2);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   color: var(--color4);
   user-select: none;
   font-family: Roboto, sans-serif;
+}
+
+@media only screen and (max-width: 1200px) {
+  .circle {
+    padding: 3.3%;
+    font-size: 60px;
+    margin-left: 42%;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .smallContainer {
+    width: 55%;
+    margin-left: 23%;
+  }
+
+  .circle {
+    width: 160px;
+    height: 160px;
+    padding: 4%;
+    font-size: 55px;
+    margin-left: 40%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .smallContainer {
+    width: 70%;
+    margin-left: 16%;
+  }
+
+  .circle {
+    width: 155px;
+    height: 155px;
+    padding: 4%;
+    font-size: 55px;
+    margin-left: 37%;
+    margin-top: 10%;
+  }
+}
+
+@media only screen and (max-width: 586px) {
+  .smallContainer {
+    width: 90%;
+    margin-left: 6%;
+    margin-top: 19%;
+  }
+  .left {
+    font-size: 30px;
+  }
+  .right {
+    font-size: 30px;
+  }
+  .circle {
+    width: 140px;
+    height: 140px;
+    padding: 8%;
+    font-size: 50px;
+    margin-left: 26%;
+    margin-top: 25%;
+  }
 }

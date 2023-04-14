@@ -61,3 +61,16 @@
   transition: all 0.6s;
   user-select: none;
 }
+
+@media only screen and (max-width: 1200px) {
+  .theme {
+    width: 90px;
+    height: 42px;
+  }
+
+  .sun {
+    width: 34px;
+    height: 34px;
+    margin: 4px;
+  }
+}
