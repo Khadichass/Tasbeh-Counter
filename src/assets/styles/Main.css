@@ -38,6 +38,7 @@
 
 .container {
   padding: 1%;
+  justify-content: center;
 }
 
 .smallContainer {
@@ -115,7 +116,7 @@
     height: 155px;
     padding: 4%;
     font-size: 55px;
-    margin-left: 37%;
+    justify-content: center;
     margin-top: 10%;
   }
 }
@@ -135,9 +136,31 @@
   .circle {
     width: 140px;
     height: 140px;
+    padding: 4.5%;
+    font-size: 50px;
+    justify-content: center;
+    margin-top: 10%;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .smallContainer {
+    width: 90%;
+    margin-left: 6%;
+    margin-top: 19%;
+  }
+  .left {
+    font-size: 30px;
+  }
+  .right {
+    font-size: 30px;
+  }
+  .circle {
+    width: 140px;
+    height: 140px;
     padding: 8%;
     font-size: 50px;
-    margin-left: 26%;
+    justify-content: center;
     margin-top: 25%;
   }
 }
