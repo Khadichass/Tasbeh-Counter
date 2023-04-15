@@ -52,18 +52,31 @@
   margin-left: 30%;
 }
 
+.smallContainerNew {
+  border: 2px solid var(--color7);
+}
+
 .left {
   font-size: 40px;
   color: var(--color2);
   font-family: Roboto, sans-serif;
   user-select: none;
 }
+
+.leftNew {
+  color: var(--color7);
+}
+
 .right {
   display: flex;
   font-size: 40px;
   color: var(--color2);
   font-family: Roboto, sans-serif;
   user-select: none;
+}
+
+.rightNew {
+  color: var(--color7);
 }
 
 .circle {
@@ -91,6 +104,7 @@
     margin-left: 42%;
   }
 }
+
 @media only screen and (max-width: 992px) {
   .smallContainer {
     width: 55%;
@@ -105,6 +119,7 @@
     margin-left: 40%;
   }
 }
+
 @media only screen and (max-width: 768px) {
   .smallContainer {
     width: 70%;

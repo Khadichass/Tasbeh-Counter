@@ -3,29 +3,44 @@ import React, { useState } from "react";
 import { FaMoon } from "react-icons/fa";
 
 function Header() {
-  const [day, setDay] = useState(true);
-  const [night, setNight] = useState(false);
+  // const [day, setDay] = useState(true);
+  // const [night, setNight] = useState(false);
 
-  const toogleClick = () => {
-    if (day) {
-      setDay(false);
-    } else {
-      setDay(true);
-    }
-    if (night) {
-      setNight(false);
-    } else {
-      setNight(true);
-    }
+  // const toogleClick = () => {
+  //   if (day) {
+  //     setDay(false);
+  //   } else {
+  //     setDay(true);
+  //   }
+  //   if (night) {
+  //     setNight(false);
+  //   } else {
+  //     setNight(true);
+  //   }
+  // };
+
+  const [isDay, setIsDay] = useState(true);
+
+  const toggleClick = () => {
+    setIsDay(!isDay);
   };
+
+  // const resetClick = () => {
+  //   setCount(0);
+  //   setSumCount(0);
+  // };
+
   return (
-    <div className="header">
+    <div className={`header ${isDay ? "day" : "night"}`}>
       <div className="btn">
         <button>Reset</button>
       </div>
-      <div className="theme">
+      <div className={`theme ${isDay ? "defaultColor" : "pressColor"}`}>
         <div className="themeContainer">
-          <div className="sun"></div>
+          <div
+            className={`sun ${isDay ? "suncolor" : "night"}`}
+            onClick={toggleClick}
+          ></div>
         </div>
       </div>
     </div>
