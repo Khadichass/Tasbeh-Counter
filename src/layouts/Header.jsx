@@ -25,6 +25,10 @@ function Header() {
     setIsDay(!isDay);
   };
 
+  const resetClick = () => {
+    setIsDay(!isDay);
+  };
+
   // const resetClick = () => {
   //   setCount(0);
   //   setSumCount(0);
@@ -33,7 +37,12 @@ function Header() {
   return (
     <div className={`header ${isDay ? "day" : "night"}`}>
       <div className="btn">
-        <button>Reset</button>
+        <button
+          className={isDay ? "defaultColor" : "pressColor"}
+          onClick={resetClick}
+        >
+          Reset
+        </button>
       </div>
       <div className={`theme ${isDay ? "defaultColor" : "pressColor"}`}>
         <div className="themeContainer">
