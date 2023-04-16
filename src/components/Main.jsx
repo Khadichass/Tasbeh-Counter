@@ -13,7 +13,7 @@ function Main() {
     setCount(count + 1);
     setSumCount(sumCount + 1);
     if (count == 99) {
-      setCount(0);
+      setCount(1);
     }
   };
 

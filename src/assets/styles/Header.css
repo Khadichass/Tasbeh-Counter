@@ -42,7 +42,7 @@
 }
 .theme {
   position: relative;
-  width: 100px;
+  width: 90px;
   height: 44px;
   background-color: var(--color2);
   border-radius: 50px;
@@ -51,6 +51,8 @@
   user-select: none;
   overflow: hidden;
   transition: ease-in 1s;
+  display: inline;
+  text-align: right;
 }
 
 .defaultColor {
@@ -132,5 +134,5 @@
 }
 
 .night .sun {
-  transform: translateX(100%);
+  transform: translateX(130%);
 }
