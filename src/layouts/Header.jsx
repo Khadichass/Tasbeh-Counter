@@ -16,6 +16,7 @@ function Header() {
   const handleClick = () => {
     setCount(count + 1);
     setSumCount(sumCount + 1);
+    // eslint-disable-next-line eqeqeq
     if (count == 99) {
       setCount(1);
     }
